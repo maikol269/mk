@@ -1,0 +1,138 @@
+body {
+    background-color: aqua;
+
+}
+.imagen{
+    width: 20%;
+}
+
+.border{
+    border: 1px solid white;
+    background-color: greenyellow;
+}
+
+.logo{
+    width: 100%;
+}
+
+.nombre{
+    width:100%
+}
+
+.menu{
+    width:100%
+}
+
+.registro{
+    width:100%
+}
+
+.buscar{
+    width:100%
+}
+
+@media screen and (min-width: 0px) and (max-width: 300px) {
+    body {
+        background-color: yellow;
+
+    }
+
+        
+    
+        .logo {
+            width: 50%;
+        }
+    
+        .nombre {
+            width: 100%
+        }
+    
+        .menu {
+            width: 100%
+        }
+    
+        .registro {
+            width: 50%
+        }
+    
+        .buscar {
+            width: 50%
+        }
+
+
+
+}
+
+@media screen and (min-width: 301px) and (max-width:600px) {
+    body {
+        background-color: blue;
+
+    }
+
+        
+    
+        .logo {
+            width: 30%;
+        }
+    
+        .nombre {
+            width: 40%
+        }
+    
+        .menu {
+            width: 30%
+        }
+    
+        .registro {
+            width: 50%
+        }
+    
+        .buscar {
+            width: 50%
+        }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+        background-color: red;
+    }
+
+         .logo {
+             width: 30%;
+         }
+    
+         .nombre {
+             width: 30%
+         }
+    
+         .menu {
+             width: 30%
+         }
+    
+         .registro {
+             width: 10%
+         }
+    
+         .buscar {
+             width: 100%
+         }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    body {
+        background-color: violet;
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: black;
+    }
+
+}
